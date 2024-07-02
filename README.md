@@ -2,6 +2,8 @@
 
 You are building a responsive web application that helps users to see the list of countries and a few details about the country.
 
+https://github.com/JamieDawson/Country-Selector/assets/16840579/66833edd-1a15-4070-bf0c-bd46e86e1b1e
+
 ## Challenge #1: A widget to display the country list
 
 - Each country should have
