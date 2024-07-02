@@ -12,7 +12,7 @@ function App() {
       let data = await fetch("https://restcountries.com/v3.1/all");
       let json = await data.json();
 
-      const countyNames = json.map((item) => item.name.common);
+      const countyNames = json.map((item) => item.name.common.toLowerCase());
       setCountriesOnlyArray(countyNames);
       setEntireJson(json);
     };
